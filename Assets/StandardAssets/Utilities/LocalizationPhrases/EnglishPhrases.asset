@@ -26,3 +26,14 @@ MonoBehaviour:
   - key: INFOPOST3
     value: "\u201CThis place just got interesting! Use K to hit and O to shoot. Let\u2019s
       try it on this innocent looking wall.\u201D"
+  - key: INFOPOST4
+    value: '"Acid Rain:  Caused due to Irrational burning of fossil fuels." '
+  - key: INFOPOST5
+    value: '"Water Pollution:  Caused due to Untreated wastes from industries, Pesticide
+      surface runoffs and Domestic waste. "'
+  - key: INFOPOST6
+    value: '"Global warming:  Caused due to Increase of green house gases due to
+      burning of fossil fuels and deforestation. "'
+  - key: INFOPOST7
+    value: '"Species Extinction: Caused due to Deforestation, Hunting, Global Warming.
+      "'

@@ -10,14 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 2320961368102526956}
   - component: {fileID: 2494941070953167966}
-  - component: {fileID: 6934007165303120275}
   - component: {fileID: 4168565477636125598}
   - component: {fileID: 8191455384643070362}
   - component: {fileID: 6877107467784115581}
   - component: {fileID: 3273019186551776533}
   - component: {fileID: 4142954733054316430}
   m_Layer: 0
-  m_Name: fea4358fd64b790b341e7fa7d33c8168-removebg-preview (1)
+  m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3482758679701957943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.4, y: 18.73, z: 0}
+  m_LocalPosition: {x: 13, y: 14.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -88,25 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &6934007165303120275
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3482758679701957943}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fa09abe65871fb446bfb942166f52146, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!61 &4168565477636125598
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -224,8 +204,7 @@ MonoBehaviour:
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7358085174709829042, guid: f009024d0aeab0946b3298d77ae567dd,
-          type: 3}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Gamekit2D.EnemyBehaviour, Assembly-CSharp
         m_MethodName: Hit
         m_Mode: 0
@@ -240,8 +219,7 @@ MonoBehaviour:
   OnDie:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7358085174709829042, guid: f009024d0aeab0946b3298d77ae567dd,
-          type: 3}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Gamekit2D.EnemyBehaviour, Assembly-CSharp
         m_MethodName: Die
         m_Mode: 0

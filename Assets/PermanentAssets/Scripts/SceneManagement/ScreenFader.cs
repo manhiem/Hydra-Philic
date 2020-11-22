@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace Gamekit2D
 {
@@ -90,7 +91,10 @@ namespace Gamekit2D
             if (Instance.faderCanvasGroup.alpha > 0.1f)
                 canvasGroup = Instance.faderCanvasGroup;
             else if (Instance.gameOverCanvasGroup.alpha > 0.1f)
+            {
                 canvasGroup = Instance.gameOverCanvasGroup;
+                SceneManager.LoadScene("Zone1");
+            }
             else
                 canvasGroup = Instance.loadingCanvasGroup;
             
@@ -109,6 +113,7 @@ namespace Gamekit2D
                     break;
                 case FadeType.GameOver:
                     canvasGroup = Instance.gameOverCanvasGroup;
+                    SceneManager.LoadScene("Zone1");
                     break;
                 default:
                     canvasGroup = Instance.loadingCanvasGroup;
