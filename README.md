@@ -7,4 +7,5 @@ Earth is heading towards a catastrophe as we speak. 3,837,130,800 Tons of CO2 ha
 
 Drawing on the theory of playful successes of using gamification as a motivating and behavioral change tool, we have adopted gamification (which is a combination of game dynamics, behavioral economics, and motivational psychology), an innovative strategy for fostering user-engagement and help solve the above problem. Now, at its core gamification is about engaging people on an emotional level and motivating them to accomplish goals for the greater good.
 
+# Our Belief:
 ![Our message](https://github.com/manhiem/Hydra-Philic/blob/main/Image/Motive.JPG)
